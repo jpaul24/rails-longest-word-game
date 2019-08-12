@@ -1,0 +1,45 @@
+// Place all the styles related to the games controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@import url("https://fonts.googleapis.com/css?family=Inconsolata&display=swap");
+
+body {
+  text-align: center;
+  font-family: 'Inconsolata', monospace;
+}
+ul {
+  list-style: none;
+  margin: 60px 0 100px 0;
+}
+
+li {
+  padding: 30px;
+  display: inline;
+  border-radius: 2px;
+  background-color: rgb(42, 142, 255);
+  color: white;
+  font-style: bold;
+  font-size: 24px;
+}
+
+form {
+  margin: 50px;
+}
+
+input {
+  border-radius: 3px;
+}
+
+.banner {
+  padding: 50px;
+  margin: 0;
+  h1 {
+    font-size: 40px;
+    font-family: 'Inconsolata', monospace;
+  }
+}
+
+// .container {
+//   width: 800px;
+//   text-align: center;
+// }
